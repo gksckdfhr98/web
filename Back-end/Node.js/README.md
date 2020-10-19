@@ -35,3 +35,8 @@
 1. process.argv를 통해 사용자 입력을 받는다.
 2. index 2부터 사용자 입력을 받게 됨을 주의한다.
 ```
+
+**not_found.js(Not Found 오류 구현)**
+```
+1. url.parse().pathname을 이용하여 '/'가 아닌 다른 경로로 들어온다면 'Not Found' message가 보이게 한다. 
+```
