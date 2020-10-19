@@ -41,7 +41,7 @@
 1. url.parse().pathname을 이용하여 '/'가 아닌 다른 경로로 들어온다면 'Not Found' message가 보이게 한다. 
 ```
 
-**homepage.js**
+**homepage.js(홈페이지 구현)**
 ```
 1. not_found.js에서의 구현을 보면 '/'로 들어오면 title과 descripttion이 undefined로 실행된다.
 1-1. 또 다른 조건문을 주어 id의 값이 없을때 homepage가 나오도록 구현하였다.
