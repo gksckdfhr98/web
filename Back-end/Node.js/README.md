@@ -46,3 +46,9 @@
 1. not_found.js에서의 구현을 보면 '/'로 들어오면 title과 descripttion이 undefined로 실행된다.
 1-1. 또 다른 조건문을 주어 id의 값이 없을때 homepage가 나오도록 구현하였다.
 ```
+
+**read_dir.js(파일 목록 알아내기)**
+```
+1. homepage.js에서 template 부분의 ul의 li는 유동적으로 바뀔수 있다.
+1-1. 그러기 위해서 data folder의 파일 목록을 알아낸다면 적용시킬 수 있다.
+```
