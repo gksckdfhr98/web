@@ -81,3 +81,15 @@
 2. 비동기적 수행을 위해 콜백함수를 사용.
 2-1. slowfunc에서 callback함수를 부르는데 slowfunc(a); 를 실행시키면 slowfunc안의 callback 함수로 a가 실행된다.
 ```
+
+**Package Manager**
+```
+1. npm install pm2 -g 로 설치
+2. pm2를 이용하면 js파일 수정시 다시 껐다가 켤 필요없지 자동으로 해준다.
+3. pm2 start main.js 로 시작
+3-1. --watch 옵션을 주면 자세히 볼 수 있다.
+4. pm2 stop main 으로 멈춤
+5. pm2 log 를통해 error나 바뀐 정보를 알 수 있다.
+6. pm2 monit 을 통해 pm2에 의해 실행중은 process가 보임.
+7. pm2 list 를 통해 실행중인 list를 확인 가능하다.
+```
