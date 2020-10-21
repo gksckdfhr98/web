@@ -99,3 +99,11 @@
 1. create anchor tag를 만들어서 클릭시 title, description를 입력할 수 있는 form page로 이동
 2. 입력 후 제출시 processss_create로 이동.
 ```
+
+**form_post.js(post방식으로 전송된 데이터 받기)**
+```
+1. request.on('data',function(data)) 로 data를 받는다.
+2. request.on('end',function()) 로 data 받는 것이 끝난 다음을 처리해준다.
+2-1. node.js의 내장모듈인 require('querystring')을 이용하여 qs.parse(body)로 data를 읽는다.
+2-2. 읽은 data의 input tag의 name값에 맞추어서 값을 읽는다.
+```
