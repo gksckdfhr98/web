@@ -93,3 +93,9 @@
 6. pm2 monit 을 통해 pm2에 의해 실행중은 process가 보임.
 7. pm2 list 를 통해 실행중인 list를 확인 가능하다.
 ```
+
+**create.js(글생성 UI 만들기)**
+```
+1. create anchor tag를 만들어서 클릭시 title, description를 입력할 수 있는 form page로 이동
+2. 입력 후 제출시 processss_create로 이동.
+```
