@@ -74,3 +74,10 @@
 ```
 1. 비동기적으로 수행하여 A, C, B 순으로 출력한다.
 ```
+
+**callback.js(콜백함수)**
+```
+1. node.js에서는 함수도 값이라는 점.
+2. 비동기적 수행을 위해 콜백함수를 사용.
+2-1. slowfunc에서 callback함수를 부르는데 slowfunc(a); 를 실행시키면 slowfunc안의 callback 함수로 a가 실행된다.
+```
