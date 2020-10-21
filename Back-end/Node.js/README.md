@@ -52,3 +52,9 @@
 1. homepage.js에서 template 부분의 ul의 li는 유동적으로 바뀔수 있다.
 1-1. 그러기 위해서 data folder의 파일 목록을 알아낸다면 적용시킬 수 있다.
 ```
+
+**read_dir2.js(글목록 출력하기)**
+```
+1. read_dir.js에서 이용한 readdir method를 통해 실제로 적용시켜본다.
+2. data folder에 Node.js를 추가하면 재실행하지 않고도 새로고침을 통해 페이지가 동적으로 변한 것을 확인 할 수 있다.
+```
