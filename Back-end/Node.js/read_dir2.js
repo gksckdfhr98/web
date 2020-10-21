@@ -42,8 +42,6 @@ var app = http.createServer(function(request,response){
     }
     else{
       fs.readdir('./data',function(err,filelist){
-        var title = 'Welcome';
-        var description = 'Hello, Node.js';
         var list = '<ul>';
         var i = 0;
         while(i < filelist.length){
