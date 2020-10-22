@@ -107,3 +107,10 @@
 2-1. node.js의 내장모듈인 require('querystring')을 이용하여 qs.parse(body)로 data를 읽는다.
 2-2. 읽은 data의 input tag의 name값에 맞추어서 값을 읽는다.
 ```
+
+**write.js(파일생성과 리다이렉션)**
+```
+1. form으로 입력받은 데이터를 writeFile method를 통해 data folder에 저장한다.
+2. 저장 후, 입력받은 데이터를 보여주는 페이지로 리다이렉트한다.
+2-1. redirect는 response.writeHead(302);
+```
