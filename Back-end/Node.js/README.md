@@ -139,3 +139,9 @@
 1. 코드가 길어진다면 templateList, templateHTML을 읽는데 어려움을 겪을 수 있다.
 2. template이라는 객체를 이용하여 각각의 함수를 객체화 하여 관리한다.
 ```
+
+**muse.js , mpart.js(모듈의 형식)**
+```
+1. 모듈은 객체를 관리
+2. module.exports에 객체 값을 부여하면 다른 js파일에서 require를 이용하여 사용 가능
+```
