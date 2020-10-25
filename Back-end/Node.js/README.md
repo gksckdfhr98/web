@@ -133,3 +133,9 @@
 2. 버튼 클릭시 특정 url로 이동하는 것이 아닌 바로 삭제할 것이라 form 형식으로 구성
 3. fs.unlink method를 이용하여 파일 삭제, 삭제 후에는 '/'로 redirect
 ```
+
+**Object.js(객체를 이용해서 템플릿 기능 정돈)**
+```
+1. 코드가 길어진다면 templateList, templateHTML을 읽는데 어려움을 겪을 수 있다.
+2. template이라는 객체를 이용하여 각각의 함수를 객체화 하여 관리한다.
+```
