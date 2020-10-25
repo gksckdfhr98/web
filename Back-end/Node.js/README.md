@@ -145,3 +145,10 @@
 1. 모듈은 객체를 관리
 2. module.exports에 객체 값을 부여하면 다른 js파일에서 require를 이용하여 사용 가능
 ```
+
+**module.js , template.js(모듈의 활용)**
+```
+1. 기존 코드에 있던 template 변수에 할당된 값들을 모듈 형식을 이용하여 구조를 바꾸어본다.
+2. template 부분을 template.js로 옮기고 module.exports = template; 을 통해 외부에서 참조 가능하게 한다.
+3. 기존 코드에서는 require('./lib/template.js'); 을 통해 모듈 불러온다.
+```
