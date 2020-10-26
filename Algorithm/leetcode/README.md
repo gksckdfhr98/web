@@ -16,3 +16,9 @@
 1. sliding windwo algorithm 사용.
 2. 넣을 문자가 set에 없다면 insert 후 j index++ , 있다면 erase 후 i index++
 ```
+
+**[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)**
+```
+1. dp문제, dp[n][n]으로 잡아놓고 dp[i][j]가 팰린드롬이면 1로 설정
+2. 길이가 3부터 검사를 하며 s[i]==s[j] && dp[i+1][j-1]==1 인지 확인.
+```
