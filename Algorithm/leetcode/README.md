@@ -22,3 +22,8 @@
 1. dp문제, dp[n][n]으로 잡아놓고 dp[i][j]가 팰린드롬이면 1로 설정
 2. 길이가 3부터 검사를 하며 s[i]==s[j] && dp[i+1][j-1]==1 인지 확인.
 ```
+
+**[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)**
+```
+1. 변수 increase의 값에 따라 idx를 증가시키면서 넣는지 감소시키면서 넣는지 확인.
+```
