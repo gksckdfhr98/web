@@ -39,4 +39,5 @@
 ```
 1. brute force 방식.
 2. two pointer 방식.
+2-1. idx 2개를 처음과 끝으로 잡아놓고 height를 비교해 가면서 idx 조절.
 ```
