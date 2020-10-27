@@ -27,3 +27,10 @@
 ```
 1. 변수 increase의 값에 따라 idx를 증가시키면서 넣는지 감소시키면서 넣는지 확인.
 ```
+
+**[Palindrome Number](https://leetcode.com/problems/palindrome-number/)**
+```
+1. x가 음수이면 회문일 수 없다.
+2. 자릿수가 짝수이면 반까지만 reverse한 후 원래 숫자와 비교
+3. 자릿수가 홀수이면 반까지만 reverse한 후 ans/10와 원래 숫자  
+```
