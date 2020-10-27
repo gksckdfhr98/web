@@ -41,3 +41,8 @@
 2. two pointer 방식.
 2-1. idx 2개를 처음과 끝으로 잡아놓고 height를 비교해 가면서 idx 조절.
 ```
+
+**[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)**
+```
+1. roma 숫자에 해당하는 배열과 그 값을 선언 후 num에서 value를 빼면서 ans에 문자열 추가.
+```
