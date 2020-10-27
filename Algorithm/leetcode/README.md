@@ -46,3 +46,9 @@
 ```
 1. roma 숫자에 해당하는 배열과 그 값을 선언 후 num에서 value를 빼면서 ans에 문자열 추가.
 ```
+
+**[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)**
+```
+※코테전 참고 - 문자열 비교
+1. strs[0]을 prefix로 설정해 놓고 그 다음 인덱스의 문자열과 비교하면서 prefix조정
+```
