@@ -77,3 +77,8 @@
 1. head 앞에 node하나 만들어 두고 next를 돌면서 head의 length를 먼저 구한다.
 2. length에 n값을 빼고 루프를 통해 해당 위치에서 그 다음의 node로 연결시켜준다.
 ```
+
+**[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)**
+```
+1. stack에 값을 넣으면서 괄호가 닫히면 pop한다.
+```
