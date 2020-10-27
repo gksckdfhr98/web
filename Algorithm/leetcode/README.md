@@ -52,3 +52,11 @@
 ※코테전 참고 - 문자열 비교
 1. strs[0]을 prefix로 설정해 놓고 그 다음 인덱스의 문자열과 비교하면서 prefix조정
 ```
+
+**[3Sum](https://leetcode.com/problems/3sum/)**
+```
+1. brute force 방식은 시간 초과(복잡도가 n^3이라 그런가봄)
+2. 비교를 줄이기 위해 two pointer algorithm이용.
+2-1. 따라서 주어진 vector sort() method를 통해 오름차순 정렬.
+3. 결과값이 중복되면 안되므로 set에 값을 넣어 중복 제거
+```
