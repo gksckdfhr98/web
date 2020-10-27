@@ -66,3 +66,8 @@
 1. 3Sum 문제와 접근 방식은 동일
 2. ans에 무한대 값을 주고 현재 sum과 target과의 절댓값과 ans와 target과의 절댓값을 비교하여 작다면 ans=sum
 ```
+
+**[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)**
+```
+1. 주어진 digits의 길이만큼 dfs탐색.
+```
