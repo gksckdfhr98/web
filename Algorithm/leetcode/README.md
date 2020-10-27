@@ -60,3 +60,9 @@
 2-1. 따라서 주어진 vector sort() method를 통해 오름차순 정렬.
 3. 결과값이 중복되면 안되므로 set에 값을 넣어 중복 제거
 ```
+
+**[3Sum Closest](https://leetcode.com/problems/3sum-closest/)**
+```
+1. 3Sum 문제와 접근 방식은 동일
+2. ans에 무한대 값을 주고 현재 sum과 target과의 절댓값과 ans와 target과의 절댓값을 비교하여 작다면 ans=sum
+```
