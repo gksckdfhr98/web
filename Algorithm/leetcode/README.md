@@ -118,3 +118,9 @@
 ```
 1. stack에 -1 먼저 push (pop할때 stack이 비어있지 않은 상태면 maxn을 계산하기 위함)
 ```
+
+**[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)**
+```
+1. lenear search (배열의 크기가 커지면 탐색 시간이 길어짐)
+2. binary search
+```
