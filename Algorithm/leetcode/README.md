@@ -89,3 +89,9 @@
 2. 반환을 위해 head를 만듬.
 3. prior node로 두 리스트의 값을 비교하면서 연결시켜나감.
 ```
+
+**[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)**
+```
+1. backtracking을 이용하여 문제 품.
+2. backtracking을 하면서 열린괄호의 개수는 닫힌괄호의 개수보다 많이 유지되어야함.
+```
