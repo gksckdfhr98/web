@@ -95,3 +95,9 @@
 1. backtracking을 이용하여 문제 품.
 2. backtracking을 하면서 열린괄호의 개수는 닫힌괄호의 개수보다 많이 유지되어야함.
 ```
+
+**[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)**
+```
+1. 재귀함수를 써서 해결
+2. 주어진 list 앞에 dummynode를 만들어서 해결.
+```
