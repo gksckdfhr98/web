@@ -82,3 +82,10 @@
 ```
 1. stack에 값을 넣으면서 괄호가 닫히면 pop한다.
 ```
+
+**[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)**
+```
+1. 두 개의 리스트를 비교하면서 작은 값들을 연결시켜 나간다.
+2. 반환을 위해 head를 만듬.
+3. prior node로 두 리스트의 값을 비교하면서 연결시켜나감.
+```
