@@ -113,3 +113,8 @@
 2. 끝에서 그 지점까지 idx를 줄여가면서 그 지점(i)의 숫자보다 커지는 지점(j)를 찾는다.
 3. i부터 j까지 숫자를 뒤집는다.
 ```
+
+**[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)**
+```
+1. stack에 -1 먼저 push (pop할때 stack이 비어있지 않은 상태면 maxn을 계산하기 위함)
+```
