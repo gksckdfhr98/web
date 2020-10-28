@@ -101,3 +101,8 @@
 1. 재귀함수를 써서 해결
 2. 주어진 list 앞에 dummynode를 만들어서 해결.
 ```
+
+**[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)**
+```
+1. set을 이용하여 간단하게 
+```
