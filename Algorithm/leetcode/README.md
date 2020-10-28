@@ -106,3 +106,10 @@
 ```
 1. set을 이용하여 간단하게 
 ```
+
+**[Next Permutation](https://leetcode.com/problems/next-permutation/)**
+```
+1. 끝에서부터 idx를 줄여가면서 최초로 숫자가 작아지는 지점(i)을 찾는다.
+2. 끝에서 그 지점까지 idx를 줄여가면서 그 지점(i)의 숫자보다 커지는 지점(j)를 찾는다.
+3. i부터 j까지 숫자를 뒤집는다.
+```
