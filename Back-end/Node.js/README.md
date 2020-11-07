@@ -152,3 +152,11 @@
 2. template 부분을 template.js로 옮기고 module.exports = template; 을 통해 외부에서 참조 가능하게 한다.
 3. 기존 코드에서는 require('./lib/template.js'); 을 통해 모듈 불러온다.
 ```
+
+**security.js(입력정보에 대한 보안)**
+```
+1. url을 통해 id값으로 '../password.js'를 찾으면 그에 해당 정보가 보여진다.
+1-1. user의 개인정보라고 가정했을때 이를 위해 보안의 개념을 도입하도록 한다.
+2. 1의 입력에도 해당 정보가 보여지지 않도록 하기 위해 path.parse().base를 이용한다.
+2-1. 그러면 ../password.js 입력에도 password.js로 path를 찾게되어 url을 통해 서버의 디렉토리 구조에 접근 할 수 없다.
+```
