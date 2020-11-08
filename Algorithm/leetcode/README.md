@@ -129,3 +129,12 @@
 ```
 1. dynamic programming으로 간단하게 풀 수 있는 
 ```
+
+**[Edit Distance](https://leetcode.com/problems/edit-distance/)**
+```
+1. dynamic programming으로 해결.(top-down)
+2. 주어진 조건 3개에 주목(삽입,삭제,치환)
+2-1. 두 str의 끝 idx부터 비교하는데 같다면 idx를 서로 줄여서 재귀호출
+2-2. 그렇지 않다면 (m-1,n)와(m,n-1)을 비교(삽입,삭제) + (m-1,n-1)와 비교(치환)
+2-3. 재귀호출을 통해 진행하면서 dp의 값이 존재한다면 return하여 중복계산을 피한다.
+```
