@@ -124,3 +124,8 @@
 1. lenear search (배열의 크기가 커지면 탐색 시간이 길어짐)
 2. binary search
 ```
+
+**[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)**
+```
+1. dynamic programming으로 간단하게 풀 수 있는 
+```
