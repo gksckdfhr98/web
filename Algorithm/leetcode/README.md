@@ -138,3 +138,11 @@
 2-2. 그렇지 않다면 (m-1,n)와(m,n-1)을 비교(삽입,삭제) + (m-1,n-1)와 비교(치환)
 2-3. 재귀호출을 통해 진행하면서 dp의 값이 존재한다면 return하여 중복계산을 피한다.
 ```
+
+**[Sort Colors](https://leetcode.com/problems/sort-colors/)**
+```
+1. two-pointer algorithm으로 해결
+1-1. low,high,i 3개의 idx를 잡고 시작
+1-2. i<=high일때까지 루프를 반복하며
+1-3. 0이면 i와 l의 위치를 swap , 2면 i와 high의 위치를 swap, 1이면 continue
+```
