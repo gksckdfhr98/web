@@ -146,3 +146,11 @@
 1-2. i<=high일때까지 루프를 반복하며
 1-3. 0이면 i와 l의 위치를 swap , 2면 i와 high의 위치를 swap, 1이면 continue
 ```
+
+**[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)**
+```
+1. sliding window 기법으로 해결
+2. 처음에 map에 t의 문자 하나씩을 넣음.
+2-1. right를 증가시키면서 map의 count를 줄이고 len==0이면 최소 길이인지 판별
+2-2. 그 동안 len==0이 아닐때까지 left를 증가.
+```
