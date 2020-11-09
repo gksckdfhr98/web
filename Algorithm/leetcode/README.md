@@ -154,3 +154,8 @@
 2-1. right를 증가시키면서 map의 count를 줄이고 len==0이면 최소 길이인지 판별
 2-2. 그 동안 len==0이 아닐때까지 left를 증가.
 ```
+
+**[Subsets](https://leetcode.com/problems/subsets/)**
+```
+1. dfs로 해결.
+```
