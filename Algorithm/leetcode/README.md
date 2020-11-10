@@ -164,3 +164,12 @@
 ```
 1. dfs로 탐색하면서 ans가 true면 다른 경로는 탐색할 필요가 없다는 것에 주의.( 그렇지 않으면 시간초과 발생)
 ```
+
+**[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)**
+```
+**hard**
+1. stack을 이용하여 해결.
+2. stack에 heights[i]를 넣는데 새로 넣을 것이 stack.top보다 작으면 검사 시작
+2-1. 새로 넣을 것과 stack.top이 같아질때까지 pop하면서 max를 구한다.
+3. heights를 다 넣고 stack이 비어질 때까지 검사하면서 max계산.
+```
