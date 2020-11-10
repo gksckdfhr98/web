@@ -173,3 +173,11 @@
 2-1. 새로 넣을 것과 stack.top이 같아질때까지 pop하면서 max를 구한다.
 3. heights를 다 넣고 stack이 비어질 때까지 검사하면서 max계산.
 ```
+
+**[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)**
+```
+**hard**
+1. Largest Rectangle in Histogram 푼 풀이를 적용해야함.
+2. 주어진 nxm 크기의 matrix를 가로방향으로 -> 방향으로 바라봤을때, 1이 쌓이는 개수를 누적하여 map에 저장.
+3. col의 크기만큼 루프를 돌면서 각 세로줄에 1의 기법을 적용.
+```
