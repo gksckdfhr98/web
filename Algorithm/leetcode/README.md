@@ -159,3 +159,8 @@
 ```
 1. dfs로 해결.
 ```
+
+**[Word Search](https://leetcode.com/problems/word-search/)**
+```
+1. dfs로 탐색하면서 ans가 true면 다른 경로는 탐색할 필요가 없다는 것에 주의.( 그렇지 않으면 시간초과 발생)
+```
