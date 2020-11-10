@@ -13,6 +13,7 @@
 
 **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)**
 ```
+**다시보기**
 1. sliding windwo algorithm 사용.
 2. 넣을 문자가 set에 없다면 insert 후 j index++ , 있다면 erase 후 i index++
 ```
@@ -168,6 +169,7 @@
 **[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)**
 ```
 **hard**
+**다시보기**
 1. stack을 이용하여 해결.
 2. stack에 heights[i]를 넣는데 새로 넣을 것이 stack.top보다 작으면 검사 시작
 2-1. 새로 넣을 것과 stack.top이 같아질때까지 pop하면서 max를 구한다.
@@ -177,6 +179,7 @@
 **[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)**
 ```
 **hard**
+**다시보기**
 1. Largest Rectangle in Histogram 푼 풀이를 적용해야함.
 2. 주어진 nxm 크기의 matrix를 가로방향으로 -> 방향으로 바라봤을때, 1이 쌓이는 개수를 누적하여 map에 저장.
 3. col의 크기만큼 루프를 돌면서 각 세로줄에 1의 기법을 적용.
