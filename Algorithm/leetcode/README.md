@@ -190,3 +190,10 @@
 ```
 1. dfs로 탐색하는데 인자로 low,high값을 주면서 탐색.
 ```
+
+**[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)**
+```
+1. t1,t2의 값이 같은지 확인
+2. t1->left, t2->right 가 같은지 확인
+3. t1->right, t2->left가 같은지 확인.
+```
