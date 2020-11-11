@@ -208,3 +208,8 @@
 ```
 1. bfs로 탐색하면서 depth 증가 시켜나간다. (queue가 비어질때까지 탐색)
 ```
+
+**[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)**
+```
+1. preorder의 값이 inorder의 값에 매칭되는 시점(idx)에 idx보다 작은 index는 그 값보다 왼쪽에 있고, 큰 index는 그 값보다 오른쪽에 있다.
+```
