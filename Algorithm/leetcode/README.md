@@ -203,3 +203,8 @@
 1. bfs algorithm 적용.
 2. q가 empty일때까지 루프를 돌면서 q내부에서 먼저 q의size를 구하고(해당 level에 있는 node의 개수) 루프를 돌면서 검사.
 ```
+
+**[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)**
+```
+1. bfs로 탐색하면서 depth 증가 시켜나간다. (queue가 비어질때까지 탐색)
+```
