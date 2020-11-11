@@ -197,3 +197,9 @@
 2. t1->left, t2->right 가 같은지 확인
 3. t1->right, t2->left가 같은지 확인.
 ```
+
+**[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**
+```
+1. bfs algorithm 적용.
+2. q가 empty일때까지 루프를 돌면서 q내부에서 먼저 q의size를 구하고(해당 level에 있는 node의 개수) 루프를 돌면서 검사.
+```
