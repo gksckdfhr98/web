@@ -213,3 +213,8 @@
 ```
 1. preorder의 값이 inorder의 값에 매칭되는 시점(idx)에 idx보다 작은 index는 그 값보다 왼쪽에 있고, 큰 index는 그 값보다 오른쪽에 있다.
 ```
+
+**[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)**
+```
+1. 재귀적으로 호출하면서 cur의 left를 cur의 right로 옮기고 기존의 cur의 right를 새로 옮긴 cur->right의 끝에 이어 붙임.
+```
