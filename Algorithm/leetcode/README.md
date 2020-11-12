@@ -224,3 +224,12 @@
 1. min_prices와 비교해서 prices[i]가 작으면 값을 바꾼다.
 2. min_price보다 큰 값이 나왔을때 그 차이가 maxprofit보다 크면 값을 바꾼다.
 ```
+
+**[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)**
+```
+**다시보기**
+**hard**
+1. 재귀 호출 방식으로 품.
+2. leaf node 부분에서 현 node의 left와 right 값을 비교하여 max인 것을 node->val과 더하여 return(그래야 전체 모양이 binary tree 구조임)
+3. 2과정마다 left와 right를 구할때 0과 비교하여 음수값은 걸러주므로 ans과 3 node의 합을 비교하여 ans 갱신.
+```
