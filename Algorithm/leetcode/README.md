@@ -218,3 +218,9 @@
 ```
 1. 재귀적으로 호출하면서 cur의 left를 cur의 right로 옮기고 기존의 cur의 right를 새로 옮긴 cur->right의 끝에 이어 붙임.
 ```
+
+**[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)**
+```
+1. min_prices와 비교해서 prices[i]가 작으면 값을 바꾼다.
+2. min_price보다 큰 값이 나왔을때 그 차이가 maxprofit보다 크면 값을 바꾼다.
+```
