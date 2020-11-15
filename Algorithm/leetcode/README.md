@@ -259,3 +259,9 @@
 1. idx 0부터 nums.size까지 숫자를 누적해서 곱하면서 maxn을 갱신해준다.
 2. 반대방향으로 1의 방법을 똑같이 해준다.
 ```
+
+**[Majority Element](https://leetcode.com/problems/majority-element/)**
+```
+1. 루프를 돌면서 map에 key,value를 저장한다.
+2. map의 루프를 돌면서 value가 최대인 key를 찾아서 
+```
