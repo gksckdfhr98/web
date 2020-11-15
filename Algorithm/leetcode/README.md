@@ -245,3 +245,11 @@
 ```
 1. map에 숫자를 넣고, 루프를 돌면서 확인할때 map의 value가 1이면 ans
 ```
+
+**[Word Break](https://leetcode.com/problems/word-break/)**
+```
+1. bottom-up 방식으로 구현 -> dp
+2. s의 길이 만큼 dp 배열을 잡고, idx에 wordDict의 len을 더한 것이 wordDict에 존재한다면 해당 위치에서는 가능하다.
+3. 2와 같은 방식으로 idx에 len을 더해가며 idx가 s의 길이와 같아지면 true
+4. 그 과정중에 dp값이 1 또는 -1 이면 추가적으로 재귀호출 할 필요 없이 true와 false를 return 한다.
+```
