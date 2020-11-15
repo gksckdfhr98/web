@@ -265,3 +265,9 @@
 1. 루프를 돌면서 map에 key,value를 저장한다.
 2. map의 루프를 돌면서 value가 최대인 key를 찾아서 
 ```
+
+**[House Robber](https://leetcode.com/problems/house-robber/)**
+```
+1. dp문제
+2. dp[0]=nums[0], dp[1]에는 nums[0],nums[1]중 큰값을 넣는다.
+```
