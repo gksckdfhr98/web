@@ -240,3 +240,8 @@
 2. 루프를 돌면서 maxn을 결정.
 3. 루프가 끝난 후, maxn과 cnt를 한번 더 비교해준다.(루프 내에서 모든 숫자가 연속적인 오름차순일 수도 있기 
 ```
+
+**[Single Number](https://leetcode.com/problems/single-number/)**
+```
+1. map에 숫자를 넣고, 루프를 돌면서 확인할때 map의 value가 1이면 ans
+```
