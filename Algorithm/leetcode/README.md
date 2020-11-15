@@ -233,3 +233,10 @@
 2. leaf node 부분에서 현 node의 left와 right 값을 비교하여 max인 것을 node->val과 더하여 return(그래야 전체 모양이 binary tree 구조임)
 3. 2과정마다 left와 right를 구할때 0과 비교하여 음수값은 걸러주므로 ans과 3 node의 합을 비교하여 ans 갱신.
 ```
+
+**[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)**
+```
+1. set에 숫자를 넣는다.(꺼낼때 자동으로 오름차순되는 것을 이용)
+2. 루프를 돌면서 maxn을 결정.
+3. 루프가 끝난 후, maxn과 cnt를 한번 더 비교해준다.(루프 내에서 모든 숫자가 연속적인 오름차순일 수도 있기 
+```
