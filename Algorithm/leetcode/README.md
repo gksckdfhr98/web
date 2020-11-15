@@ -253,3 +253,9 @@
 3. 2와 같은 방식으로 idx에 len을 더해가며 idx가 s의 길이와 같아지면 true
 4. 그 과정중에 dp값이 1 또는 -1 이면 추가적으로 재귀호출 할 필요 없이 true와 false를 return 한다.
 ```
+
+**[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)**
+```
+1. idx 0부터 nums.size까지 숫자를 누적해서 곱하면서 maxn을 갱신해준다.
+2. 반대방향으로 1의 방법을 똑같이 해준다.
+```
