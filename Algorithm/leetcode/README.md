@@ -278,3 +278,12 @@
 2. 탐색시, queue에 (x,y) 좌표를 넣고 상하좌우로 idx를 변경하면서 탐색
 2-1. 방문하지 않았거나 '1'이면 push.
 ```
+
+**[Course Schedule](https://leetcode.com/problems/course-schedule/)**
+```
+1. 주어진 전제조건에 따라 edge에 push_back( edge[x].push_back(y) -- x를 방문해야 y도 방문 가능)
+2. 1의 과정을 수행하면서 동시에 y에 딸린 조건이 몇개인지 저장하는 indegree 도 갱신.
+3. indegree가 0인 수들을 queue에 넣고 q가 빌때까지 루프 반복
+4. indegree-1 == 0 인 수들을 다시 queue에 넣는다.
+5. numCourses와 visited가 같다면 모든 수들이 가능한 것이므로 true
+```
