@@ -2,6 +2,8 @@
 **[Proejct바로가기](http://3.234.88.56:8080/loginform)**
 ---
 
+**AWS 기반의 전시 정보 예약 관리 플랫폼**
+
 **AWS**
 ```
 1. EC2에 instance를 생성 후, spring project를 배포했습니다.
