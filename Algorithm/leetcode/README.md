@@ -271,3 +271,10 @@
 1. dp문제
 2. dp[0]=nums[0], dp[1]에는 nums[0],nums[1]중 큰값을 넣는다.
 ```
+
+**[Number of Islands](https://leetcode.com/problems/number-of-islands/)**
+```
+1. 이중루프를 돌면서 '1'이고 방문하지 않았다면 탐색 시작 , ans++
+2. 탐색시, queue에 (x,y) 좌표를 넣고 상하좌우로 idx를 변경하면서 탐색
+2-1. 방문하지 않았거나 '1'이면 push.
+```
