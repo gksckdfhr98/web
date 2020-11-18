@@ -300,3 +300,9 @@
 1. nums를 오름차순으로 sort후, k번째로 큰 수를 return
 2. priority_queue 이용하여 k-1번 pop한 후에 pq.top() return.
 ```
+
+**[Maximal Square](https://leetcode.com/problems/maximal-square/)**
+```
+1. dynamic programming 이용.
+2. (i,j)에서 1일때 검사하는데 (i-1,j-1),(i-1,j),(i,j-1) 중 작은 값에 + 1 ( 셋중 하나라도 0 이면 정사각형이 안되기 때문)
+```
