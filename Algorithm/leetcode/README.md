@@ -287,3 +287,10 @@
 4. indegree-1 == 0 인 수들을 다시 queue에 넣는다.
 5. numCourses와 visited가 같다면 모든 수들이 가능한 것이므로 true
 ```
+
+**[Word Search II](https://leetcode.com/problems/word-search-ii/)**
+```
+1. words의 루프를 돌면서 존재하는지 확인  function exist.
+2. word[0]와 board[i][j]가 같으면 dfs 시작.
+3. dfs시 방문했던 문자는 다시 방문 x
+```
