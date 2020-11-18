@@ -298,4 +298,5 @@
 **[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)**
 ```
 1. nums를 오름차순으로 sort후, k번째로 큰 수를 return
+2. priority_queue 이용하여 k-1번 pop한 후에 pq.top() return.
 ```
