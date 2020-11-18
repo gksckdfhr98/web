@@ -294,3 +294,8 @@
 2. word[0]와 board[i][j]가 같으면 dfs 시작.
 3. dfs시 방문했던 문자는 다시 방문 x
 ```
+
+**[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)**
+```
+1. nums를 오름차순으로 sort후, k번째로 큰 수를 return
+```
