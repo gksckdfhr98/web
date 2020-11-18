@@ -160,3 +160,12 @@
 2. 1의 입력에도 해당 정보가 보여지지 않도록 하기 위해 path.parse().base를 이용한다.
 2-1. 그러면 ../password.js 입력에도 password.js로 path를 찾게되어 url을 통해 서버의 디렉토리 구조에 접근 할 수 없다.
 ```
+
+**sanitized.js(출력정보에 대한 보안)**
+```
+1. 기존 코드에서 create시 description부분에 <script>alert('merong')</script>을 주면 문자열로 나타나는 것이 아닌. 실제 javascript로 동작한다.
+2. 이것을 막기 위해 npm의 sanitize-html을 이용한다.
+2-1. npm init후, npm install -S sanitize-html
+3. 그후 title,description을 사용자 입력 받아 sanitize하면 script부분은 사라진다.
+4. 이를 허용하기 위해 2번째 인자로 allowedTags 옵션을 주어 허용 가능
+```

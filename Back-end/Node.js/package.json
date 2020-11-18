@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "**main.js(node.js의 웹서버 구현)**\r ```\r 1. request.url로 url 정보를 얻는다.\r 2. response.end()로 결과를 실행.\r ```",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sanitize-html": "^2.1.2"
+  }
+}
