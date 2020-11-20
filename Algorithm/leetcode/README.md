@@ -315,3 +315,10 @@
 3. cnt==1이면 0을 제외한 부분은 전체의 곱이고 이외 부분은 0
 4. cnt==0이면 tot에서 nums[i]를 나누면 됨.
 ```
+
+**[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)**
+```
+1. nums.size가 0이거나 k=1이면 그대로 returh
+2. deque에 nums[0]을 넣고 i=1~k까지 nums[i]와 dq.back()을 비교하여 nums[i]가 크다면 dq.pop_back() 반복.
+3. j=k~end까지 nums[j]와 dq.back을 비교하여 값을 넣는다.(2번과정) , dq.front()와 nums[i]가 같다면 sliding 범위를 벗어나므로 dq에서 빼준다.
+```
