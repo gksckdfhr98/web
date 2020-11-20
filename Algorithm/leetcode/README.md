@@ -340,3 +340,8 @@
 ```
 1. i<nums.size() 까지 루프를 돌면서 nums[i]가 0이면 지우고 push_back
 ```
+
+**[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)**
+```
+1. map에 넣고 map을 확인하면서 개수가 1 이상이면 duplicate임을 확인.
+```
