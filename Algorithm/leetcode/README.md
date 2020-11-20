@@ -335,3 +335,8 @@
 1. dp top/down 풀이.
 2. 제곱수들을 미리 저장해 놓고 n에서 제곱수들을 빼면서 dp값을 저장하고 재귀호출을 통해 해결.
 ```
+
+**[Move Zeroes](https://leetcode.com/problems/move-zeroes/)**
+```
+1. i<nums.size() 까지 루프를 돌면서 nums[i]가 0이면 지우고 push_back
+```
