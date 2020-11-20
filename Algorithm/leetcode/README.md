@@ -328,3 +328,10 @@
 1. target이 (i,j)보다 작으면 ㅓ--
 2. 반대면 i++
 ```
+
+**[Perfect Squares](https://leetcode.com/problems/perfect-squares/)**
+```
+**다시보기**
+1. dp top/down 풀이.
+2. 제곱수들을 미리 저장해 놓고 n에서 제곱수들을 빼면서 dp값을 저장하고 재귀호출을 통해 해결.
+```
