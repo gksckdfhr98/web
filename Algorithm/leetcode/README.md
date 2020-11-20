@@ -306,3 +306,12 @@
 1. dynamic programming 이용.
 2. (i,j)에서 1일때 검사하는데 (i-1,j-1),(i-1,j),(i,j-1) 중 작은 값에 + 1 ( 셋중 하나라도 0 이면 정사각형이 안되기 때문)
 ```
+
+**[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)**
+```
+1. 루프를 돌면서 0이 아닌 전체의 곱을 계산
+1-1. 1의 과정중 0의 개수를 카운트 한다.(cnt)
+2. cnt==2이면 0을 제외하고도 또 다른 0이 있으므로 배열의 모든 값은 0이된다.
+3. cnt==1이면 0을 제외한 부분은 전체의 곱이고 이외 부분은 0
+4. cnt==0이면 tot에서 nums[i]를 나누면 됨.
+```
