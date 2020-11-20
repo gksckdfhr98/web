@@ -322,3 +322,9 @@
 2. deque에 nums[0]을 넣고 i=1~k까지 nums[i]와 dq.back()을 비교하여 nums[i]가 크다면 dq.pop_back() 반복.
 3. j=k~end까지 nums[j]와 dq.back을 비교하여 값을 넣는다.(2번과정) , dq.front()와 nums[i]가 같다면 sliding 범위를 벗어나므로 dq에서 빼준다.
 ```
+
+**[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)**
+```
+1. target이 (i,j)보다 작으면 ㅓ--
+2. 반대면 i++
+```
