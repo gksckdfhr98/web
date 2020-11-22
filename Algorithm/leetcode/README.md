@@ -365,3 +365,12 @@
 1. map을 통해 nums배열의 각 숫자의 개수를 카운트
 2. priority_queue를 통해 빈도수 많은 숫자 출력.
 ```
+
+**[Decode String](https://leetcode.com/problems/decode-string/)**
+```
+1. i<s.size()까지 전체 루프 돔.
+2. i index를 ']' 만날때까지 증가
+3. j=i부터 '[' 만날때까지 감소
+4. 그 사이의 반복되는 문자열 구하고 그 앞의 숫자를 구해서 총 반복된 문자열 구함.
+5. 그 후 replace 함수를 통해 치환.
+```
