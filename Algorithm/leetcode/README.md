@@ -352,3 +352,10 @@
 2. 각 dp배열에 1만큼 먼저 할당(각 숫자 1개씩만큼은 최소로 갖기 때문)
 3. 루프를 돌면서 현재 숫자와 이전숫자를 비교하면서 작은 수가 나오면 그 dp값에 1 더한 수가 현재의 dp보다 큰지 확인.
 ```
+
+**[Coin Change](https://leetcode.com/problems/coin-change/)**
+```
+1. top-down (시간초과)
+2. bottom-up (coins 배열을 돌면서 dp[coin]=1로 초기화)
+3. 그후 i=1~amount까지 루프를 돌면서 dp[i-coin]의 값을 누적해 나감.
+```
