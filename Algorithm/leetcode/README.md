@@ -359,3 +359,9 @@
 2. bottom-up (coins 배열을 돌면서 dp[coin]=1로 초기화)
 3. 그후 i=1~amount까지 루프를 돌면서 dp[i-coin]의 값을 누적해 나감.
 ```
+
+**[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)**
+```
+1. map을 통해 nums배열의 각 숫자의 개수를 카운트
+2. priority_queue를 통해 빈도수 많은 숫자 출력.
+```
