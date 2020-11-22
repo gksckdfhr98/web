@@ -374,3 +374,9 @@
 4. 그 사이의 반복되는 문자열 구하고 그 앞의 숫자를 구해서 총 반복된 문자열 구함.
 5. 그 후 replace 함수를 통해 치환.
 ```
+
+**[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)**
+```
+1. height가 큰 순으로 height가 같다면 K(i)가 작은 순으로 정렬.
+2. K(i)의 위치에 people[i]를 넣음.
+```
