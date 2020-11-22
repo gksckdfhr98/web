@@ -345,3 +345,10 @@
 ```
 1. map에 넣고 map을 확인하면서 개수가 1 이상이면 duplicate임을 확인.
 ```
+
+**[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)**
+```
+1. dp로 해결.
+2. 각 dp배열에 1만큼 먼저 할당(각 숫자 1개씩만큼은 최소로 갖기 때문)
+3. 루프를 돌면서 현재 숫자와 이전숫자를 비교하면서 작은 수가 나오면 그 dp값에 1 더한 수가 현재의 dp보다 큰지 확인.
+```
