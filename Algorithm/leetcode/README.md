@@ -380,3 +380,10 @@
 1. height가 큰 순으로 height가 같다면 K(i)가 작은 순으로 정렬.
 2. K(i)의 위치에 people[i]를 넣음.
 ```
+
+**[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)**
+```
+1. dp로 해결(bottom-up)
+2. nums의 각 숫자를 모두 합한 tot를 구하고 홀수면 false
+3. nums[i]를 추가할때마다 j-nums[i]가 true면 j도 true
+```
