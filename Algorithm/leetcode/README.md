@@ -398,3 +398,10 @@
 ```
 1. nums[i]!=i+1 && nums[i] != nums[nums[i]-1] 조건을 만족할때까지 swap 반복.
 ```
+
+**[Target Sum](https://leetcode.com/problems/target-sum/)**
+```
+1. 2d dp
+2. 주어진 배열의 합이 1000을 초과하지 않으므로 총 배열은 -1000 ~ 1000 (2001만큼 잡는다.
+3. nums[i]를 더하고 빼면서 dp[i-1]에서의 값이 0이 아니라면 dp[i] += dp[i-1]
+```
