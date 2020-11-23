@@ -387,3 +387,9 @@
 2. nums의 각 숫자를 모두 합한 tot를 구하고 홀수면 false
 3. nums[i]를 추가할때마다 j-nums[i]가 true면 j도 true
 ```
+
+**[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)**
+```
+1. sliding window
+2. string p의 각 문자를 map에 넣고, string s의 길이만큼 루프를 돌면서 p의size만큼 sliding window가 크기를 가졌을때, map에 모든 문자의 value가 0인지 아닌지 확인하여 판별.
+```
