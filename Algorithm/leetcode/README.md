@@ -393,3 +393,8 @@
 1. sliding window
 2. string p의 각 문자를 map에 넣고, string s의 길이만큼 루프를 돌면서 p의size만큼 sliding window가 크기를 가졌을때, map에 모든 문자의 value가 0인지 아닌지 확인하여 판별.
 ```
+
+**[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)**
+```
+1. nums[i]!=i+1 && nums[i] != nums[nums[i]-1] 조건을 만족할때까지 swap 반복.
+```
