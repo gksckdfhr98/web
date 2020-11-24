@@ -405,3 +405,9 @@
 2. 주어진 배열의 합이 1000을 초과하지 않으므로 총 배열은 -1000 ~ 1000 (2001만큼 잡는다.
 3. nums[i]를 더하고 빼면서 dp[i-1]에서의 값이 0이 아니라면 dp[i] += dp[i-1]
 ```
+
+**[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)**
+```
+1. use map , sliding window 이용하려 했으나 배열이 오름차순으로 정렬되지 않아서 못씀
+2. sum을 누적해 가면서 map에 저장, sum-k의 value가 map에 있다면 k을 만들수 있는 것이므로 그 value 값만큼 ans에 추가.
+```
