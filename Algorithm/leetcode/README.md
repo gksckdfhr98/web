@@ -416,3 +416,12 @@
 ```
 1. nums 배열을 오름차순으로 sort한것과 기존의 nums 배열을 비교하면서 오름차순해야할 배열의 길이 구함.
 ```
+
+**[Task Scheduler](https://leetcode.com/problems/task-scheduler/)**
+```
+1. tasks 배열을 돌면서 map에 문자 카운트
+2. pq에 (time,문자의 개수) 값을 넣는다.
+2-1. compare 함수로 time이 작은 순으로, 문자의 개수가 큰순으로 정렬.
+3. ans를 증가시키면서 pq가 비어질때까지 반복 -> ans보다 time이 크면 그 시간만큼 idle이므로 ans=time
+4. time에는 cooldown만큼 더해주고, 문자의 개수--
+```
