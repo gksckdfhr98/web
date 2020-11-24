@@ -425,3 +425,9 @@
 3. ans를 증가시키면서 pq가 비어질때까지 반복 -> ans보다 time이 크면 그 시간만큼 idle이므로 ans=time
 4. time에는 cooldown만큼 더해주고, 문자의 개수--
 ```
+
+**[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)**
+```
+1. 2d dp로 해결
+2. s[i]와s[i+len]이 같다면 dp[i+1][i+len-1]==true면 palindrome이므로 ans++(1개짜리는 다 세므로 ans는 s.length()부터 시작)
+```
