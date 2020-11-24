@@ -431,3 +431,9 @@
 1. 2d dp로 해결
 2. s[i]와s[i+len]이 같다면 dp[i+1][i+len-1]==true면 palindrome이므로 ans++(1개짜리는 다 세므로 ans는 s.length()부터 시작)
 ```
+
+**[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)**
+```
+1. stack을 이용하여 해결
+2. stack의 top과 현재 T[i]를 비교하여 T[i]가 더 크다면 그 차이만큼 ans[idx]에 저장후 pop
+```
