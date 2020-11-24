@@ -437,3 +437,12 @@
 1. stack을 이용하여 해결
 2. stack의 top과 현재 T[i]를 비교하여 T[i]가 더 크다면 그 차이만큼 ans[idx]에 저장후 pop
 ```
+
+**[Partition Labels](https://leetcode.com/problems/partition-labels/)**
+```
+1. S의 길이만큼 루프를 돌면서 map에 각 char가 마지막으로 나오는 index를 map에 저장.
+2. two pointer algorithm을 이용하여 시작할때 i=0, j= map의 i위치의 char가 마지막으로 나오는 index를 저장
+3. i가 j와 같아질때까지 i를 증가시키면서 해당 위치의 char가 마지막으로 나오는 index가 j보다 크다면 j 갱신.
+4. 3의 루프가 끝나면 길이 계산해서 ans에 push_back
+5. 2~4과정을 반복하면서 i가 S.length()-1이면 루프 빠져 나옴.
+```
