@@ -411,3 +411,8 @@
 1. use map , sliding window 이용하려 했으나 배열이 오름차순으로 정렬되지 않아서 못씀
 2. sum을 누적해 가면서 map에 저장, sum-k의 value가 map에 있다면 k을 만들수 있는 것이므로 그 value 값만큼 ans에 추가.
 ```
+
+**[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)**
+```
+1. nums 배열을 오름차순으로 sort한것과 기존의 nums 배열을 비교하면서 오름차순해야할 배열의 길이 구함.
+```
