@@ -27,3 +27,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 ```
 1. dp 배열을 만들어서 i*i<=B까지 루프를 돌면서 제곱 팰린드롬수이면 dp[i*i]=true
 ```
+
+**[10580. 전봇대](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXO8QBw6Qu4DFAXS&categoryId=AXO8QBw6Qu4DFAXS&categoryType=CODE)**
+```
+1. 입력받은 a,b 를 a가 작은 순으로 오름차순 정렬.
+2. i를 증가시키면서 j=i-1로 잡고 j--하면서 v[i].second보다 큰값이 나오면 ans++;
+```
