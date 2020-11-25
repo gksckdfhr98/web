@@ -33,3 +33,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 입력받은 a,b 를 a가 작은 순으로 오름차순 정렬.
 2. i를 증가시키면서 j=i-1로 잡고 j--하면서 v[i].second보다 큰값이 나오면 ans++;
 ```
+
+**[10505. 소득 불균형](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXNP4CvauaMDFAXS&categoryId=AXNP4CvauaMDFAXS&categoryType=CODE)**
+```
+1. 입력을 받으면서 vector에 저장하면서 전체 숫자의 합 tot을 구함.
+2. tot을 통해 평균을 구하고 vector을 돌면서 평균이하의 것들 ans++
+```
