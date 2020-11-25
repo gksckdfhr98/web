@@ -45,3 +45,8 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. A와 B중 최소값이 최댓값
 2. A+B>N이면 A+B-N 값이 교차점이 
 ```
+
+**[10059. 유효기간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXK6YRNaKq0DFAU3&categoryId=AXK6YRNaKq0DFAU3&categoryType=CODE)**
+```
+1. 주어진 입력을 2자리씩 나누어서 판별.
+```
