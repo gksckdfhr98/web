@@ -17,3 +17,8 @@
 time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간)
 2-1. 그렇지 않다면 버튼만 누르면 되므로 time+=1
 ```
+
+**[10726. 이진수 표현](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXRSXf_a9qsDFAXS&categoryId=AXRSXf_a9qsDFAXS&categoryType=CODE&&&)**
+```
+1. N만큼 M을 2로 나누면서 나머지가 1이 나오면 조건 만족.
+```
