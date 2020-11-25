@@ -39,3 +39,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 입력을 받으면서 vector에 저장하면서 전체 숫자의 합 tot을 구함.
 2. tot을 통해 평균을 구하고 vector을 돌면서 평균이하의 것들 ans++
 ```
+
+**[10200. 구독자 전쟁](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXMCXV_qVgkDFAWv&categoryId=AXMCXV_qVgkDFAWv&categoryType=CODE)**
+```
+1. A와 B중 최소값이 최댓값
+2. A+B>N이면 A+B-N 값이 교차점이 
+```
