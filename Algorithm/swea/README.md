@@ -50,3 +50,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 ```
 1. 주어진 입력을 2자리씩 나누어서 판별.
 ```
+
+**[10805. 야바위](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXTC3GH6D-EDFASe)**
+```
+1. 공의 위치 pos=1로 잡고 속임수를 써서 가능한 후보 candidate 배열을 시작과 동시에 q의 루프를 돌때마다 갱신시켜준다.
+2. pos가 n보다 작으면 pos+1로 순간이동 가능, pos가 1보다 크면 pos-1로 순간이동 가능
+```
