@@ -70,3 +70,8 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 2. 다른 수열은 내림차순으로 시작하여 dfs 탐색하면됨.
 3. score>=k인 시점에서 방문하지 않은 개수(m) 탐색후 factorial을 구해서 누적(m!가지의 배치 경우의수)
 ```
+
+**[9708. 가장 긴 수열](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXDNGXlKagUDFAVX)**
+```
+1. dp[num[i]]=1로 초기화, num[i]를 계속 더하면서 num[N-1]보다 같거나 작을때까지 반복하면서 dp배열 갱신.
+```
