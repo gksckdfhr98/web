@@ -56,3 +56,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 공의 위치 pos=1로 잡고 속임수를 써서 가능한 후보 candidate 배열을 시작과 동시에 q의 루프를 돌때마다 갱신시켜준다.
 2. pos가 n보다 작으면 pos+1로 순간이동 가능, pos가 1보다 크면 pos-1로 순간이동 가능
 ```
+
+**[10571. 잔디 깎기](https://swexpertacademy.com/main/code/problem/problemSolverCodeDetail.do)**
+```
+1. row,col 배열을 각각 100씩 초기화
+2. 2중루프를 돌면섯 100-land[i][j] 최소값을 각각의 위치에 저장. ( land의 가장 높은 위치 알 수 있음)
+3. 2중루프를 돌면서 각 위치에서 row와 col의 최솟값중 100에서 뺀 값이 land[i][j]와 같은지 확인.
+```
