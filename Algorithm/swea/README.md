@@ -63,3 +63,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 2. 2중루프를 돌면섯 100-land[i][j] 최소값을 각각의 위치에 저장. ( land의 가장 높은 위치 알 수 있음)
 3. 2중루프를 돌면서 각 위치에서 row와 col의 최솟값중 100에서 뺀 값이 land[i][j]와 같은지 확인.
 ```
+
+**[9942. 순열2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXHx5_FK0UUDFAXR&categoryId=AXHx5_FK0UUDFAXR&categoryType=CODE)**
+```
+1. 길이가 N인 한 수열의 배치는 N!
+2. 다른 수열은 내림차순으로 시작하여 dfs 탐색하면됨.
+3. score>=k인 시점에서 방문하지 않은 개수(m) 탐색후 factorial을 구해서 누적(m!가지의 배치 경우의수)
+```
