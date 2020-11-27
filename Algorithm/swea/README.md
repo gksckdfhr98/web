@@ -75,3 +75,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 ```
 1. dp[num[i]]=1로 초기화, num[i]를 계속 더하면서 num[N-1]보다 같거나 작을때까지 반복하면서 dp배열 갱신.
 ```
+
+**[5293. 이진 문자열 복원](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWUiwoe6o00DFAVT)**
+```
+1. 문자열이 0,1로 시작하는 2가지 경우로 나누어서 dfs 시작.
+2. 01,10 같은 경우에는 010 ,101 처럼 0과 1이 번갈아 나와야만 하므로 01의 개수 b와 10의 개수 c는 서로 같거나 차이가 1이여야한다.
+```
