@@ -446,3 +446,11 @@
 4. 3의 루프가 끝나면 길이 계산해서 ans에 push_back
 5. 2~4과정을 반복하면서 i가 S.length()-1이면 루프 빠져 나옴.
 ```
+
+**[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)**
+```
+**다시보기**
+1. ->, <- 두 방향으로 dp
+2. stack을 이용하여 해결
+3. two pointer
+```
