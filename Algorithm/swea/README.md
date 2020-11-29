@@ -81,3 +81,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 문자열이 0,1로 시작하는 2가지 경우로 나누어서 dfs 시작.
 2. 01,10 같은 경우에는 010 ,101 처럼 0과 1이 번갈아 나와야만 하므로 01의 개수 b와 10의 개수 c는 서로 같거나 차이가 1이여야한다.
 ```
+
+**[4371. 항구에 들어오는 배](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWMedCxalW8DFAXd)**
+```
+1. N만큼 입력을 받으면서 해당 날에는 check[num]=true로 초기화, num-1을 vector에 push
+2. vector 루프를 돌면서 1에서 v[i]만큼 계속 증가시키면서 check[num]이 true라면 총개수 n(N-1,1을 제회한 즐거운날)에서 1씩 뺀다, check[num]=true로 바꿈.
+3. 2과정을 통해 true로 바꾼 날이 존재하면 bool up=true로 바꾸고 ans++
+```
