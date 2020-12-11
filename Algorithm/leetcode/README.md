@@ -380,3 +380,77 @@
 1. height가 큰 순으로 height가 같다면 K(i)가 작은 순으로 정렬.
 2. K(i)의 위치에 people[i]를 넣음.
 ```
+
+**[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)**
+```
+1. dp로 해결(bottom-up)
+2. nums의 각 숫자를 모두 합한 tot를 구하고 홀수면 false
+3. nums[i]를 추가할때마다 j-nums[i]가 true면 j도 true
+```
+
+**[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)**
+```
+1. sliding window
+2. string p의 각 문자를 map에 넣고, string s의 길이만큼 루프를 돌면서 p의size만큼 sliding window가 크기를 가졌을때, map에 모든 문자의 value가 0인지 아닌지 확인하여 판별.
+```
+
+**[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)**
+```
+1. nums[i]!=i+1 && nums[i] != nums[nums[i]-1] 조건을 만족할때까지 swap 반복.
+```
+
+**[Target Sum](https://leetcode.com/problems/target-sum/)**
+```
+1. 2d dp
+2. 주어진 배열의 합이 1000을 초과하지 않으므로 총 배열은 -1000 ~ 1000 (2001만큼 잡는다.
+3. nums[i]를 더하고 빼면서 dp[i-1]에서의 값이 0이 아니라면 dp[i] += dp[i-1]
+```
+
+**[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)**
+```
+1. use map , sliding window 이용하려 했으나 배열이 오름차순으로 정렬되지 않아서 못씀
+2. sum을 누적해 가면서 map에 저장, sum-k의 value가 map에 있다면 k을 만들수 있는 것이므로 그 value 값만큼 ans에 추가.
+```
+
+**[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)**
+```
+1. nums 배열을 오름차순으로 sort한것과 기존의 nums 배열을 비교하면서 오름차순해야할 배열의 길이 구함.
+```
+
+**[Task Scheduler](https://leetcode.com/problems/task-scheduler/)**
+```
+1. tasks 배열을 돌면서 map에 문자 카운트
+2. pq에 (time,문자의 개수) 값을 넣는다.
+2-1. compare 함수로 time이 작은 순으로, 문자의 개수가 큰순으로 정렬.
+3. ans를 증가시키면서 pq가 비어질때까지 반복 -> ans보다 time이 크면 그 시간만큼 idle이므로 ans=time
+4. time에는 cooldown만큼 더해주고, 문자의 개수--
+```
+
+**[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)**
+```
+1. 2d dp로 해결
+2. s[i]와s[i+len]이 같다면 dp[i+1][i+len-1]==true면 palindrome이므로 ans++(1개짜리는 다 세므로 ans는 s.length()부터 시작)
+```
+
+**[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)**
+```
+1. stack을 이용하여 해결
+2. stack의 top과 현재 T[i]를 비교하여 T[i]가 더 크다면 그 차이만큼 ans[idx]에 저장후 pop
+```
+
+**[Partition Labels](https://leetcode.com/problems/partition-labels/)**
+```
+1. S의 길이만큼 루프를 돌면서 map에 각 char가 마지막으로 나오는 index를 map에 저장.
+2. two pointer algorithm을 이용하여 시작할때 i=0, j= map의 i위치의 char가 마지막으로 나오는 index를 저장
+3. i가 j와 같아질때까지 i를 증가시키면서 해당 위치의 char가 마지막으로 나오는 index가 j보다 크다면 j 갱신.
+4. 3의 루프가 끝나면 길이 계산해서 ans에 push_back
+5. 2~4과정을 반복하면서 i가 S.length()-1이면 루프 빠져 나옴.
+```
+
+**[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)**
+```
+**다시보기**
+1. ->, <- 두 방향으로 dp
+2. stack을 이용하여 해결
+3. two pointer
+```
