@@ -88,3 +88,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 2. vector 루프를 돌면서 1에서 v[i]만큼 계속 증가시키면서 check[num]이 true라면 총개수 n(N-1,1을 제회한 즐거운날)에서 1씩 뺀다, check[num]=true로 바꿈.
 3. 2과정을 통해 true로 바꾼 날이 존재하면 bool up=true로 바꾸고 ans++
 ```
+
+**[5642. [Professional] 합](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXQm2SqdxkDFAUo)**
+```
+1. num을 더해가면서 sum이 음수가 나오면 0으로 초기화.(음수인 상태로 더해도 max값이 나오지 않기 때문)
+2. 주어진 num이 모두 음수일 경우를 고려.
+```
