@@ -94,3 +94,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. num을 더해가면서 sum이 음수가 나오면 0으로 초기화.(음수인 상태로 더해도 max값이 나오지 않기 때문)
 2. 주어진 num이 모두 음수일 경우를 고려.
 ```
+
+**[1231. [S/W 문제해결 기본] 9일차 - 중위순회](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD)**
+```
+1. Tree[100][3]에 각 값을 입력 받아 넣는다. 0 -> data, 1-> left, 2->right
+2. 1부터 함수를 재귀적으로 호출하면서 left가 없을때까지 호출 -> ans배열에 char 저장
+3. right 없을 때까지 호출 -> ans배열에 char 저장.
+```
