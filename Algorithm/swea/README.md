@@ -101,3 +101,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 2. 1부터 함수를 재귀적으로 호출하면서 left가 없을때까지 호출 -> ans배열에 char 저장
 3. right 없을 때까지 호출 -> ans배열에 char 저장.
 ```
+
+**[1494. 사랑의 카운슬러](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b_WPaAEIBBASw)**
+```
+1. N/2까지 dfs 함수를 재귀호출하면서 선택한 num은 chk 배열에 true로 저장.
+2. dfs 탐색을 통해 min값을 구하여 
+```
