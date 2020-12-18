@@ -107,3 +107,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. N/2까지 dfs 함수를 재귀호출하면서 선택한 num은 chk 배열에 true로 저장.
 2. dfs 탐색을 통해 min값을 구하여 
 ```
+
+**[1808. 지희의 고장난 계산기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4yC3pqCegDFAUx)**
+```
+1. 숫자로 조합할 수 있는 모든 숫자를 입력받은 N보다 작다면 num에 계속 push_back
+2. N을 num의 숫자로 나눠보면서 dynamic programming 기법으로 해결.
+```
