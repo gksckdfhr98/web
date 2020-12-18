@@ -113,3 +113,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 숫자로 조합할 수 있는 모든 숫자를 입력받은 N보다 작다면 num에 계속 push_back
 2. N을 num의 숫자로 나눠보면서 dynamic programming 기법으로 해결.
 ```
+
+**[1824. 혁진이의 프로그램 검증](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4yLUiKDUoDFAUx)**
+```
+// 코드상 잘 돌아가는데 제출하면 런타임 에러라고 뜸.
+1. dfs로 탐색을 하는데 visit했다면 return false
+2. 탐색 시간을 감소시키기 위해 fail 배열을 만듦.
+```
