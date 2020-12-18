@@ -120,3 +120,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. dfs로 탐색을 하는데 visit했다면 return false
 2. 탐색 시간을 감소시키기 위해 fail 배열을 만듦.
 ```
+
+**[1861. 정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc)**
+```
+1. 배열 m를 [1001][1001][2]로 지정해서 0-> 주어진 방의 값, 1-> 탐색으로 찾아진 이동할 수 있는 방의 수
+2. 이중 루프를 돌면서 ans_cnt와 ans_start를 구함.
+```
