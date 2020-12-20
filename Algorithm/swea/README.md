@@ -126,3 +126,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 배열 m를 [1001][1001][2]로 지정해서 0-> 주어진 방의 값, 1-> 탐색으로 찾아진 이동할 수 있는 방의 수
 2. 이중 루프를 돌면서 ans_cnt와 ans_start를 구함.
 ```
+
+**[1865. 동철이의 일 분배](https://swexpertacademy.com/main/solvingProblem/solvingProblem.do)**
+```
+1. 그냥 dfs로 풀면 제한시간 초과 발생.
+2. dfs로 탐색하면서 유망성 검사.
+3. 현재 확률 p에서 다음 확률을 곱한 값이 ans보다 크면 유망. (최댓값을 한번 계산한 시점부터 적용)
+```
