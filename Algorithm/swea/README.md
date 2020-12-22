@@ -139,3 +139,8 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 8방향으로 지뢰가 없는 지점 찾고 bfs탐색 시작
 2. 탐색하면서 방문했던 곳은 visit[i][j]=true로 하고 find_zero()를 통해 8방향이 모두 지뢰가 없으면 q에 push
 ```
+
+**[2819. 격자판의 숫자 이어 붙이기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7I5fgqEogDFAXB&categoryId=AV7I5fgqEogDFAXB&categoryType=CODE)**
+```
+1. dfs로 탐색을 하면서 길이가 7이면 set에 
+```
