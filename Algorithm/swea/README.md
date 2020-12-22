@@ -133,3 +133,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 2. dfs로 탐색하면서 유망성 검사.
 3. 현재 확률 p에서 다음 확률을 곱한 값이 ans보다 크면 유망. (최댓값을 한번 계산한 시점부터 적용)
 ```
+
+**[1868. 파핑파핑 지뢰찾기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LwsHaD1MDFAXc&categoryId=AV5LwsHaD1MDFAXc&categoryType=CODE)**
+```
+1. 8방향으로 지뢰가 없는 지점 찾고 bfs탐색 시작
+2. 탐색하면서 방문했던 곳은 visit[i][j]=true로 하고 find_zero()를 통해 8방향이 모두 지뢰가 없으면 q에 push
+```
