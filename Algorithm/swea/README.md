@@ -144,3 +144,8 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 ```
 1. dfs로 탐색을 하면서 길이가 7이면 set에 
 ```
+
+**[3000. 중간값 구하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV-fO0s6ARoDFAXT)**
+```
+1. multiset을 이용하여 입력받은 a,b를 insert하면서 a,b의 값과 mid와의 관계에 따라 iterator를 조정해서 ans에 더해나감.
+```
