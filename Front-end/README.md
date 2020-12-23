@@ -1,5 +1,6 @@
 [VanillaJS]
 ```
-1. library°¡ ¾ø´Â Javascript
-2. VanillaJs¸¦ ¹è¿ì¸é ReactJs¸¦ ¹è¿ì´Âµ¥ Å« ¹«¸®°¡ ¾ø´Ù.
+1. libraryê°€ ì—†ëŠ” Javascript
+2. VanillaJsë¥¼ ë°°ìš°ë©´ ReactJsë¥¼ ë°°ìš°ëŠ”ë° í° ë¬´ë¦¬ê°€ ì—†ë‹¤.
+3. vanillaJsë¥¼ ì´ìš©í•œ projectëŠ” Project folderì— ìˆìŒ.
 ```
