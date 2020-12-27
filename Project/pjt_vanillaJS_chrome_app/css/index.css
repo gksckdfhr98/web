@@ -1,0 +1,15 @@
+.btn{
+  cursor: pointer;
+}
+
+body{
+  color: #34495e;
+  transition: color 0.5s ease-in-out;
+}
+.form, .greeting{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
