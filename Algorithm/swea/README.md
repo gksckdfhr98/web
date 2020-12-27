@@ -155,3 +155,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. segment tree algorithm을 이용하여 해결.
 2. 특정 원소를 수정하는 update와 구간 합을 구하는 sum 함수로 구성.
 ```
+
+**[3074. 입국심사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_XEokaAEcDFAX7)**
+```
+1. 이분탐색으로 해결
+2. 사람 수 = 주어진 시간 / 창구마다 걸리는 
+```
