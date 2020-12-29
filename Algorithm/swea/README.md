@@ -161,3 +161,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. 이분탐색으로 해결
 2. 사람 수 = 주어진 시간 / 창구마다 걸리는 
 ```
+
+**[3124. 최소 스패닝 트리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_mSnmKUckDFAWb)**
+```
+1. kruscal algorithm을 이용하여 해결.
+2. swea 제출시에 따로 class 선언한 부분에 연산자 오버로딩이 있으면 채점이 안된다.
+```
