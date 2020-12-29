@@ -167,3 +167,8 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 1. kruscal algorithm을 이용하여 해결.
 2. swea 제출시에 따로 class 선언한 부분에 연산자 오버로딩이 있으면 채점이 안된다.
 ```
+
+**[3143. 가장 빠른 문자열 타이핑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_65wkqsb4DFAWS&categoryId=AV_65wkqsb4DFAWS&categoryType=CODE)**
+```
+1. find함수를 통해 string::pos가 아니면 문자열 A에 B가 있으므로 그 부분만큼 ans에서 빼주는 방식으로 해결.
+```
