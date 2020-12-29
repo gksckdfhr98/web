@@ -172,3 +172,10 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 ```
 1. find함수를 통해 string::pos가 아니면 문자열 A에 B가 있으므로 그 부분만큼 ans에서 빼주는 방식으로 해결.
 ```
+
+**[3234. 준환이의 양팔저울](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw)**
+```
+1. 입력을 받을 때 half값을 미리 계산하여 dfs로 풀때 left가 half보다 크면 그 이후에 넣는 것들은 left,right 상관 없으므로 2^N * N!을 ans에 더한다.
+2. visit 배열을 선언해서 이미 넣는지 안넣었는지 확인.
+3. 2^N*N! 계산을 위해 미리 factorial계산을 테스트 케이스 실행전에 한번 실행.
+```
