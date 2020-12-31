@@ -179,3 +179,11 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 2. visit 배열을 선언해서 이미 넣는지 안넣었는지 확인.
 3. 2^N*N! 계산을 위해 미리 factorial계산을 테스트 케이스 실행전에 한번 실행.
 ```
+
+**[3289. 서로소 집합](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJKA6qr2oDFAWr&categoryId=AWBJKA6qr2oDFAWr&categoryType=CODE)**
+```
+1. kruscal's algorithm을 이용하여 해결.
+2. parent 배열을 각 index의 자신으로 초기화(ex. parent[1]=1)
+3. c==0이면 a와b를 getParent 함수를 통해 parent 배열에 저장된 값을 불러오고 그 중 작은 값으로 원소를 포함시킨다.
+4. c==1이면 a와b를 getParent 함수를 통해 parent 배열에 저장된 값을 불러와서 같은지 다른지 확인.
+```
