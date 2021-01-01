@@ -1,10 +1,4 @@
 
-**[Proejct바로가기](http://3.234.88.56:8080/loginform)**
-
-```
-ID : test@naver.com
-Password : 1234
-```
 ---
 
 **AWS 기반의 전시 정보 예약 관리 플랫폼**
