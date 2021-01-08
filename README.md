@@ -51,6 +51,17 @@
 (로그인을 마치고 메인 페이지로 이동하기 까지의 영상 입니다. [해당링크](https://github.com/Altudy/chang-rok/tree/master/Project/pjt_reservation)에서 
 전체 영상과 상세 내용을 볼 수 있습니다.)
 
+#### Google Chrome의 Momentum 만들기
+
+  ##### 주요기능
+  
+    1. 시계기능
+    2. 사용자 이름 입력
+    3. todo list 작성
+    4. 상단 오른쪽의 온도와 weather 기능
+    
+![momentum](https://user-images.githubusercontent.com/56072258/104020975-59cd3e00-5201-11eb-9bac-6a6deaf54ab7.gif)
+
 ### Contacts 📫
 
 * Github Repo Issue
