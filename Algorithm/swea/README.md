@@ -187,3 +187,9 @@ time = abs(pos-b_pos,o_pos)+1(버튼누름)+b_time,o_time(현재위치의 시간
 3. c==0이면 a와b를 getParent 함수를 통해 parent 배열에 저장된 값을 불러오고 그 중 작은 값으로 원소를 포함시킨다.
 4. c==1이면 a와b를 getParent 함수를 통해 parent 배열에 저장된 값을 불러와서 같은지 다른지 확인.
 ```
+
+**[4672. 수진이의 팰린드롬](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWRKNev6fqYDFAV8&categoryId=AWRKNev6fqYDFAV8&categoryType=CODE)**
+```
+1. 같은 문자가 서로 붙게 만들어서 문자열을 구성하면 팰린드롬의 수가 최대가 된다.
+2. 연속으로 붙어있는 문자열의 수 가 n이면 그 개수는 n*(n+1)/2 이다.
+```
