@@ -1,0 +1,36 @@
+* [N-Queen](https://www.acmicpc.net/problem/9663)
+* [연구소](https://www.acmicpc.net/problem/14502)
+* [치킨배달](https://www.acmicpc.net/problem/15686)
+* [차이를 최대로](https://www.acmicpc.net/problem/10819)
+* [리모컨](https://www.acmicpc.net/problem/1107)
+* [2048(esay)](https://www.acmicpc.net/problem/12100)
+* [보물섬](https://www.acmicpc.net/problem/2589)
+* [단어 수학](https://www.acmicpc.net/problem/1339) 
+* [구슬 탈출2](https://www.acmicpc.net/problem/13460) 
+* [사탕 게임](https://www.acmicpc.net/problem/3085)
+* [캐슬 디펜스](https://www.acmicpc.net/problem/17135) v
+* [숫자 야구](https://www.acmicpc.net/problem/2503) v 
+* [숫자 정사각형](https://www.acmicpc.net/problem/1051) v 
+* [가르침](https://www.acmicpc.net/problem/1062) v 
+* [감소하는 수](https://www.acmicpc.net/problem/1038) v 
+* [색종이 붙이기](https://www.acmicpc.net/problem/17136) v 
+* [괄호 추가하기](https://www.acmicpc.net/problem/16637) v (완)
+* [미친로봇](https://www.acmicpc.net/problem/1405)
+* [소문난 칠공주](https://www.acmicpc.net/problem/1941)
+* [벡터매칭](https://www.acmicpc.net/problem/1007)
+* [로봇 청소기](https://www.acmicpc.net/problem/4991)
+* [종이 조각](https://www.acmicpc.net/problem/14391)
+* [계란으로 계란치기](https://www.acmicpc.net/problem/16987)
+* [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)
+* [주사위](https://www.acmicpc.net/problem/2116)
+* [행운의 문자열](https://www.acmicpc.net/problem/1342)
+* [KCPC](https://www.acmicpc.net/problem/3758)
+* [0 만들기](https://www.acmicpc.net/problem/7490)
+* [](https://www.acmicpc.net/problem/1034)
+* [gaaaaarden](https://www.acmicpc.net/problem/18809)
+* [고기잡](https://www.acmicpc.net/problem/7573)
+* [직사각형으로 나누기](https://www.acmicpc.net/problem/1451)
+* [동전 뒤집기](https://www.acmicpc.net/problem/1285)
+* [페그 솔리테어](https://www.acmicpc.net/problem/9207)
+* [Byte Coin](https://www.acmicpc.net/problem/17521)
+* [그리드 그래프](https://www.acmicpc.net/problem/10252)
