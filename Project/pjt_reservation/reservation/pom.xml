@@ -17,7 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <failOnMissingWebXml>false</failOnMissingWebXml>
     <spring.version>5.2.2.RELEASE</spring.version>
-    <jackson2.version>2.10.2</jackson2.version>
+    <jackson2.version>2.12.6.1</jackson2.version>
   </properties>
 
   <dependencies>
